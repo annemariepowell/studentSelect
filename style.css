@@ -1,4 +1,4 @@
-/*This is mostly a placeholder style sheet for now*/
+/*Style-sheet for BOTH HTML files.*/
 
 body {
 	text-align:center;
@@ -16,6 +16,16 @@ body {
 	/*color:#FFFFFF;
 	border-radius:12px;*/
 }
+
+/*Make buttons on same line*/
+#edit {
+	float:left;
+}
+
+#RANDOMIZE {
+	float:left;
+}
+
 
 
 #title {
