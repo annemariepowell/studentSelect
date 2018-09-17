@@ -1,46 +1,24 @@
 'use strict';
 
-// This variable is for setting which file to write to (post request).
-var periodChange = 0;
+// Detects which period is selected.
+
+var attached = false;
+var students = [];
 
 window.onload = function() {
-	document.getElementById("save").addEventListener("click", save);
-	document.getElementById("btn").addEventListener("click", selectedPeriod);
+	document.getElementById("btn").addEventListener("click", selectedPeriod)
+	document.getElementById("RANDOMIZE").addEventListener("click", randomPick);
+	document.getElementById("edit").addEventListener("click", editNames);
 }
 
-let save =() => {
-	
-	if (periodChange == 0) {
-			periodChange = document.getElementById("periodSelect").value;
-	}
-	
-	let textdata = document.getElementById('display').value;
-	
-	let stripped = textdata.split('\n');
-	
-	let studentNames = stripped.filter(slimDown);
-	
-	function slimDown(value){
-					return value != "" && value != undefined
-	}
-	
-	//console.log(studentNames.unshift(periodChange));
-	
-	studentNames.unshift(periodChange);
-	
-	let port = chrome.extension.connect({
-		name: "Save Student Names"
-	});
-	port.postMessage(studentNames);
-	
-}
+function editNames(){
+	// to do: add ability to edit name list
+};
 
 let selectedPeriod = () => {
 	
+	// get period value
 	let period = document.getElementById("periodSelect").value;
-	
-	// Store in variable so we can post to file later
-	periodChange = period;
 	
 	let port = chrome.extension.connect({
 		name: "Load Student Names"
@@ -52,16 +30,24 @@ let selectedPeriod = () => {
 		
 		console.log(msg);
 		
-		let students = msg;
-		//console.log(msg);
+		students = msg;
 		
+		//create the display
 		
-		document.getElementById('display').value += students.join('\n');;
-		//add text to text-area
-		
-		//for(let i=0;i<students.length;i++){
-		//	document.getElementById('display').value += students[i];
-		//}
+		document.getElementById('display').textContent = "Students: " + students;
 		
 	});
+
+}
+
+function randomPick(){
+	
+	if (students != []) {
+		if(students[Math.floor(Math.random() * students.length)] == undefined){
+			document.getElementById("chosen").textContent = "No class selected or class empty.";
+		} else {
+			let selected = students[Math.floor(Math.random() * students.length)];
+			document.getElementById("chosen").textContent = "Student Selected: " + selected;
+		}
+	}
 }
