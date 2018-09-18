@@ -3,7 +3,7 @@
 
 **Ok... so how does this program even work?**
 
-Student selector is a chrome extension and therefore behaves like one.  If you are unfamiliar with the anatomy of chrome extensions here is the specifics of how this program in particular functions.  Each script has its own job.
+Student selector is a chrome extension and therefore behaves like one.  If you are unfamiliar with the anatomy of chrome extensions here are the specifics of how this program in particular functions.  Each script has its own job.
 ## Manifest exists.
 * **manifest.json** is where I declared the permissions and images used in the extension.  It is the one required file of any chrome extension.
 
