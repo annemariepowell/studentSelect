@@ -1,8 +1,8 @@
 # Student Selector 
 ## by Milan Donhowe, Jack Nelson and Anne Marie, AKA Team JAM.
 
-# Dev Notes
-# IA Documentation
+# [Dev Notes](dev.md)
+# [IA Documentation](ia.md)
 
 
 ![](https://raw.githubusercontent.com/MilanDonhowe/studentSelect/master/images/logo96.png)
