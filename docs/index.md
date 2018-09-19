@@ -3,7 +3,7 @@
 
 # [Dev Notes](dev.md)
 # [IA Documentation](ia.md)
-
+[Get it for free on the chrome web store!](https://chrome.google.com/webstore/detail/student-randomizer/lcipncfbfemopganndembnmjjnhbaomk)
 
 ![](https://raw.githubusercontent.com/MilanDonhowe/studentSelect/master/images/logo96.png)
 
