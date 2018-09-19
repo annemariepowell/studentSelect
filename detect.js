@@ -43,8 +43,11 @@ let selectedPeriod = () => {
 function randomPick(){
 	
 	if (students != []) {
-		let selected = students[Math.floor(Math.random() * students.length)];
-		document.getElementById("chosen").textContent = "Student Selected: " + selected;
-		
+		if(students[Math.floor(Math.random() * students.length)] != undefined){
+			let selected = students[Math.floor(Math.random() * students.length)];
+			document.getElementById("chosen").textContent = "Student Selected: " + selected;
+		} else {
+			document.getElementById("chosen").textContent = "No period selected or class list empty."
+		}
 	}
 }
