@@ -1,4 +1,4 @@
-{
+
 	"name": "Student Randomizer",
 	"version": "1.0",
 	"description": "Randomly Selects Students",
@@ -6,7 +6,8 @@
 	"icons": {
 		"16": "images/logo.png",
 		"48": "images/logo48.png",
-		"96": "images/logo96.png"
+		"96": "images/logo96.png",
+		"128": "images/logo128.png"
 	},
 	"background": {
 		"persistent": true,
