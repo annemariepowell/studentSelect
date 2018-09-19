@@ -1,5 +1,5 @@
 # Student Selector 
-## by Milan Donhowe, Jack Nelson and Anne Marie, AKA Team JAM.
+## by Milan Donhowe, Jack Nelson and Anne Marie, AKA Team CrazyWatermelon.
 
 # [Dev Notes](dev.md)
 # [IA Documentation](ia.md)
