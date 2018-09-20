@@ -8,12 +8,8 @@ var students = [];
 window.onload = function() {
 	document.getElementById("btn").addEventListener("click", selectedPeriod)
 	document.getElementById("RANDOMIZE").addEventListener("click", randomPick);
-	document.getElementById("edit").addEventListener("click", editNames);
 }
 
-function editNames(){
-	// to do: add ability to edit name list
-};
 
 let selectedPeriod = () => {
 	
@@ -31,10 +27,10 @@ let selectedPeriod = () => {
 		console.log(msg);
 		
 		students = msg;
-		
+		let displayStudents = msg.join(", ")
 		//create the display
 		
-		document.getElementById('display').textContent = "Students: " + students;
+		document.getElementById('display').textContent = "Students: " + displayStudents;
 		
 	});
 
