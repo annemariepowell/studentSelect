@@ -45,7 +45,7 @@ body {
 	background-color:#FFFFFF;
 	color:black;
 	text-transform:none;
-	
+	word-wrap: break-word;
 }
 
 #periodSelect {
