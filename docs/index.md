@@ -19,8 +19,12 @@ We Team Crazy Watermelon, being made up of high school students, know firsthand 
 
 By using revolution technology such as the chrome.storage API we have a intuitive system of setting up your classes for randomization.
 
-## Where are student names stored?/
+## Where are student names stored?
 Student names are stored locally, not synchronously across browsers.
+
+The names can be found under the file path: 
+
+```%LocalAppData%\Google\Chrome\User Data\Default\Local Extension Settings```
 
 ## Acknowledgements
 
