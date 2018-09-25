@@ -1,5 +1,5 @@
 # Student Selector 
-## by Milan Donhowe, Jack Nelson and Anne Marie, AKA Team CrazyWatermelon.
+## by Milan Donhowe, Jack Nelson and Anne Marie.
 
 # [Dev Notes](dev.md)
 # [IA Documentation](ia.md)
@@ -19,7 +19,8 @@ We Team Crazy Watermelon, being made up of high school students, know firsthand 
 
 By using revolution technology such as the chrome.storage API we have a intuitive system of setting up your classes for randomization.
 
-(Tutorial Coming Soon)
+## Where are student names stored?/
+Student names are stored locally, not synchronously across browsers.
 
 ## Acknowledgements
 
