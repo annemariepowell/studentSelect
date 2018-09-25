@@ -1,5 +1,5 @@
 # Student Selector 
-## by Milan Donhowe, Jack Nelson and Anne Marie, AKA Team Crazy Watermelon.
+## by Milan Donhowe, Jack Nelson and Anne Marie Powell, AKA Team Crazy Watermelon.
 
 [Get it for free on the chrome web store!](https://chrome.google.com/webstore/detail/student-randomizer/lcipncfbfemopganndembnmjjnhbaomk)
 
