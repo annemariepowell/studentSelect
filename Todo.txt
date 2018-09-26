@@ -1,10 +1,5 @@
 Must Do:
-
-* Revamp UI
-* Expand popup window
-* Make CSS not god awful
-* Get Client Interview
-* More Graphic Queue for when save has succeeded
+* Add Graphic Indicator to let the user know the save was successful.
 * Finish Readme file
 
 
@@ -14,8 +9,12 @@ Done:
 * Team Name Decided
 * Most crucial files created
 * Core Program functionality
+* Revamped UI
+* Expanded popup window
+* Made CSS not god awful
+* Got Client Interview
+* Renamed Team
 
 Might Do:
 
 * Add not the last 3 student selection
-* Rename Team
